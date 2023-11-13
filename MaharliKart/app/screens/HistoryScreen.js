@@ -5,7 +5,6 @@ import AppText from '../components/AppText';
 import routes from '../navigation/routes';
 import {HistoryContext} from '../providers/HistoryProvider';
 
-// Search History page for Maharlikart
 const History = ({navigation}) => {
   const [history] = useContext(HistoryContext);
   if (!history) {
