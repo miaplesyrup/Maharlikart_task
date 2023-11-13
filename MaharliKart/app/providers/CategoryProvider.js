@@ -16,7 +16,7 @@ export const CategoryProvider = props => {
         );
         setCategories(response.data.data);
       } catch (error) {
-        // console.log(error);
+        throw error;
       }
     };
     fetchCategories();
