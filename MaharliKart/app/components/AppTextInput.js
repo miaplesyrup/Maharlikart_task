@@ -25,8 +25,4 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontFamily: 'Avenir',
   },
-  icon: {
-    marginRight: 5,
-    marginLeft: 5,
-  },
 });
